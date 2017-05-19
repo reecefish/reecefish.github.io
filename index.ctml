@@ -1,0 +1,17 @@
+[html
+	[head
+		[title Reece]
+		[meta{charset="utf-8"}])
+		[link{rel="stylesheet"}@https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ])
+		[link{rel="stylesheet" type="text/css"}@normal.css ])
+	]
+	[body
+		[h1 Welcome to fish]
+		[div#banner
+			
+		]
+		[div#social
+			[a@https://www.instagram.com/lapisfish/ [i{class="fa fa-instagram" aria-hidden="true"} ]]
+		]
+	]
+]
