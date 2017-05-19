@@ -2,6 +2,27 @@
 	font-size: 3em;
 }
 
+#banner {
+	width: 100%;
+	height: 35vh;
+	background-color: pink;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+
+#banner h1 {
+	margin: 0;
+}
+
+#banner img {
+	height: 100%;
+	width: auto;
+	display: table-cell;
+}
+
 body {
-	background-color: violet;
+	/*background-color: violet;*/
+	background-color: #abf;
+	margin: 0;
 }
