@@ -17,7 +17,7 @@
 		]
 		[center [h1 Welcome to fish]]
 		[div#social
-			[a@https://www.instagram.com/lapisfish/ [i{class="fa fa-instagram" aria-hidden="true"} ]]
+			[h1 [a@https://www.instagram.com/lapisfish/ Instagram [i{class="fa fa-instagram" aria-hidden="true"} ]]]
 		]
 	]
 ]
