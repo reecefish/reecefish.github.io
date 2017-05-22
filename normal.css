@@ -2,19 +2,16 @@ body {
 	background-color: #abf;
 	margin: 0;
 }
-/*
-#social i {
-	font-size: 3em;
-}*/
 
 #social a {
 	text-decoration: none;
 	color: #111;
+	background-color: #89d;
+	border-radius: 3px;
 }
 
 #social a:hover {
-	background-color: #89d;
-	border-radius: 3px;
+	animation: col 4s infinite;
 }
 
 #banner {
@@ -38,4 +35,11 @@ body {
 
 #social {
 	margin-left: 1em;
+}
+
+@keyframes col {
+	100%{ background-color: #00F; }
+	67% { background-color: #F00; }
+	33% { background-color: #0F0; }
+	0%  { background-color: #00F; }
 }
