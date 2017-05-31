@@ -8,6 +8,7 @@ body {
 	color: #111;
 	background-color: #89d;
 	border-radius: 3px;
+	padding: 0.3em;
 }
 
 #social a:hover {
