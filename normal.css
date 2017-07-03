@@ -35,6 +35,12 @@ body {
 	display: table-cell;
 }
 
+#innerTabs {
+	width: 100%;
+	height: calc( 100vh - 55vh );
+	border: none;
+}
+
 @keyframes col {
 	100%{ background-color: #00F; }
 	67% { background-color: #F00; }

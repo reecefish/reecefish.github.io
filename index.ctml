@@ -24,5 +24,8 @@
 		[div#social
 			[h1 [a@https://www.instagram.com/lapisfish/ Instagram [i{class="fa fa-instagram" aria-hidden="true"} ]]]
 		]
+		[div#tabData
+		]
+		[iframe{name="tabs"}#innerTabs$Bird2.jpg ]
 	]
 ]
