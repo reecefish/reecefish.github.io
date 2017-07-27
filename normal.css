@@ -27,10 +27,12 @@ img {
 #guide {
 	padding: 1em;
 	background-image: url(Bar_Segment.png);
+	background-color: cyan;
+	background-size: auto 3.5em;
 	position: fixed;
 	width: 100vw;
 	top: 0px;
-	height: auto;
+	height: 1.5em;
 }
 
 #guide p {
@@ -45,7 +47,6 @@ img {
 }
 
 #guide a:hover {
-	/*background-color: red;*/
 	border: red 3px solid;
 	padding: calc( 1em - 3px );
 }
