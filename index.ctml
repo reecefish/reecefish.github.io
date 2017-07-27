@@ -4,14 +4,10 @@
 		[meta{charset="utf-8"}])
 		[link{rel="stylesheet"}@https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css ])
 		[link{rel="stylesheet" type="text/css"}@normal.css ])
+		[script$guideData.js ]
 	]
-	[body
-		[center
-			[div#guide
-				[a.select@index.html SOCIAL]
-				[a@about.html ABOUT]
-			]
-		]
+	[body{onload="guide_load()"}
+		[div#guide]
 		[center [h1 Welcome to fish]]
 		[div#social
 			[h1 [a@https://www.instagram.com/lapisfish/ Instagram [i{aria-hidden="true"}.fa.fa-instagram ]]]
