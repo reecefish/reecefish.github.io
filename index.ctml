@@ -8,8 +8,8 @@
 	[body
 		[center
 			[div#guide
-				[a.select@index.html home]
-				[a@about.html about]
+				[a.select@index.html SOCIAL]
+				[a@about.html ABOUT]
 			]
 		]
 		[center [h1 Welcome to fish]]
