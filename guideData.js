@@ -1,4 +1,7 @@
-var guidedb = [ "SOCIAL", "index.html", "ABOUT", "about.html" ];
+var guidedb = [ "SOCIAL", "index.html",
+"ABOUT", "about.html",
+//"GALLERY", "google.com",
+];
 
 function guide_load()
 {
@@ -7,9 +10,10 @@ function guide_load()
 	tag_guide.appendChild( tag_center );
 	for( i = 0; i < guidedb.length/2; i++ )
 	{
-		var tag_a = document.createElement( "a" );
+		var tag_a = document.createElement( 'a' );
 		tag_a.innerHTML = guidedb[i*2+0];
 		tag_a.href = guidedb[i*2+1];
 		tag_center.appendChild( tag_a );
+		tag_center.innerHTML += ' ';
 	}
 }

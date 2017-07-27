@@ -33,6 +33,10 @@ img {
 	height: auto;
 }
 
+#guide p {
+	text-align: center;
+}
+
 #guide a {
 	text-decoration: none;
 	background-color: pink;
