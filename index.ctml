@@ -6,26 +6,15 @@
 		[link{rel="stylesheet" type="text/css"}@normal.css ])
 	]
 	[body
-		[div#banner
-			[img$Bird2.jpg ])
-			[img$Corvis.jpg ])
-			[img$Elephante.jpg ])
-			[img$FreeFlow4.jpg ])
-			[img$Jellyboi.jpg ])
-			[img$L2.jpg ])
-			[img$MentalInfrastructure.jpg ])
-			[img$Salty.jpg ])
-			[img$Sketch1.jpg ])
-			[img$Smiley.jpg ])
-			[img$Teapot.jpg ])
-			[img$Vortex.jpg ])
+		[center
+			[div#guide
+				[a.select@index.html home]
+				[a@about.html about]
+			]
 		]
 		[center [h1 Welcome to fish]]
 		[div#social
-			[h1 [a@https://www.instagram.com/lapisfish/ Instagram [i{class="fa fa-instagram" aria-hidden="true"} ]]]
+			[h1 [a@https://www.instagram.com/lapisfish/ Instagram [i{aria-hidden="true"}.fa.fa-instagram ]]]
 		]
-		[div#tabData
-		]
-		[iframe{name="tabs"}#innerTabs$Bird2.jpg ]
 	]
 ]

@@ -16,30 +16,23 @@ body {
 }
 
 #social a:hover {
-	animation: col 4s infinite;
+	animation: col 22s infinite;
 }
 
-#banner {
-	width: 100%;
-	height: 35vh;
+#guide {
+	padding: 1em;
+}
+
+#guide a{
+	text-decoration: none;
 	background-color: pink;
-	overflow-y: hidden;
-	overflow-x: scroll;
-	white-space: nowrap;
-	margin: 0;
-	display: none;
+	padding: 1em;
 }
 
-#banner img {
-	height: 100%;
-	width: auto;
-	display: table-cell;
-}
-
-#innerTabs {
-	width: 100%;
-	height: calc( 100vh - 55vh );
-	border: none;
+#guide a:hover{
+	/*background-color: red;*/
+	border: red 3px solid;
+	padding: calc( 1em - 3px );
 }
 
 @keyframes col {
@@ -50,7 +43,5 @@ body {
 }
 
 @media screen and ( min-width: 1200px ) {
-	#banner{
-		display: inherit;
-	}
+	/*MOBILE*/
 }
