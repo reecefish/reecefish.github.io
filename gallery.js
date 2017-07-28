@@ -1,14 +1,14 @@
 var database = [
 	"Salt", "http://i.imgur.com/zbs5K8L.jpg",
-	"Title1", "http://i.imgur.com/mCDFIkQ.jpg",
-	"Title2", "http://i.imgur.com/9y26TRy.jpg",
-	"Title3", "http://i.imgur.com/6P2QsQf.jpg",
-	"Title4", "http://i.imgur.com/Cykwunr.jpg",
-	"Title5", "http://i.imgur.com/cj5HZi6.jpg",
-	"Title6", "http://i.imgur.com/QamRccm.jpg",
-	"Title7", "http://i.imgur.com/A0ZoXLI.jpg",
-	"Title8", "http://i.imgur.com/wqkYhYL.jpg",
-	"Title9", "http://i.imgur.com/U8KIc7u.jpg",
+	"Mental Infrastructure", "http://i.imgur.com/mCDFIkQ.jpg",
+	"Fluid", "http://i.imgur.com/9y26TRy.jpg",
+	"Sketch 1", "http://i.imgur.com/6P2QsQf.jpg",
+	"BlueJay", "http://i.imgur.com/Cykwunr.jpg",
+	"Elephant Walking", "http://i.imgur.com/cj5HZi6.jpg",
+	"Swirl", "http://i.imgur.com/QamRccm.jpg",
+	"The Other Side", "http://i.imgur.com/A0ZoXLI.jpg",
+	"Special Tea", "http://i.imgur.com/wqkYhYL.jpg",
+	"Openning Your Second Eye", "http://i.imgur.com/U8KIc7u.jpg",
 ];
 
 var gallery_frame = document.getElementById("gallery-content");
