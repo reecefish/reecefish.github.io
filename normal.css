@@ -30,7 +30,7 @@ img {
 	background-color: cyan;
 	background-size: auto 100%;
 	position: fixed;
-	width: 100vw;
+	width: 100%;
 	top: 0px;
 	/*height: 1.5em;*/
 }
@@ -45,7 +45,7 @@ img {
 	background-size: 100% 100%;
 	background-color: darkblue;
 	padding: 1em;
-	color: black;
+	color: white;
 }
 
 #guide a:hover {
