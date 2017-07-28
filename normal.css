@@ -28,11 +28,11 @@ img {
 	padding: 1em;
 	background-image: url(Bar_Segment.png);
 	background-color: cyan;
-	background-size: auto 3.5em;
+	background-size: auto 100%;
 	position: fixed;
 	width: 100vw;
 	top: 0px;
-	height: 1.5em;
+	/*height: 1.5em;*/
 }
 
 #guide p {
@@ -41,14 +41,15 @@ img {
 
 #guide a {
 	text-decoration: none;
+	background-image: url(Button_outset.jpg);
+	background-size: 100% 100%;
 	background-color: pink;
 	padding: 1em;
 	color: black;
 }
 
 #guide a:hover {
-	border: red 3px solid;
-	padding: calc( 1em - 3px );
+	background-image: url(Button_inset.jpg);
 }
 
 #guide .select {
