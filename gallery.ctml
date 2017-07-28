@@ -5,22 +5,13 @@
 		[link{rel="stylesheet" type="text/css"}@normal.css ])
 		[link{rel="stylesheet" type="text/css"}@gallery.css ])
 	]
-	[body
+	[body{onload="load_picture(0)"}
 		[div#guide]
 		[script$guideData.js ]
-		[div#before]
-		[div#gallery-content]
-		[div#after]
+		[center [h1#gallery-title ]]
+		[div.gallery-button{onclick="previous_picture()"} &larr;]
+		[div#gallery-content [img])]
+		[div.gallery-button{onclick="next_picture()"} &rarr;]
 		[script$gallery.js ]
-	*	[img$http://i.imgur.com/zbs5K8L.jpg ])
-	*	[img$http://i.imgur.com/mCDFIkQ.jpg ])
-	*	[img$http://i.imgur.com/9y26TRy.jpg ])
-	*	[img$http://i.imgur.com/6P2QsQf.jpg ])
-	*	[img$http://i.imgur.com/Cykwunr.jpg ])
-	*	[img$http://i.imgur.com/cj5HZi6.jpg ])
-	*	[img$http://i.imgur.com/QamRccm.jpg ])
-	*	[img$http://i.imgur.com/A0ZoXLI.jpg ])
-	*	[img$http://i.imgur.com/wqkYhYL.jpg ])
-	*	[img$http://i.imgur.com/U8KIc7u.jpg ])
 	]
 ]
