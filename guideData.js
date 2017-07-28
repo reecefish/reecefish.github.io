@@ -1,6 +1,6 @@
 var guidedb = [ "SOCIAL", "index.html",
 "ABOUT", "about.html",
-//"GALLERY", "google.com",
+"GALLERY", "gallery.html",
 ];
 
 function guide_load()
@@ -17,3 +17,5 @@ function guide_load()
 		tag_center.innerHTML += ' ';
 	}
 }
+
+guide_load();

@@ -3,10 +3,10 @@
 		[title About Reece]
 		[meta{charset="utf-8"}])
 		[link{rel="stylesheet" type="text/css"}@normal.css ])
-		[script$guideData.js ]
 	]
-	[body{onload="guide_load()"}
+	[body
 		[div#guide]
+		[script$guideData.js ]
 		[div{style="margin-left:12%;margin-right:12%;"} *gross but I just don't need an ID for this
 			[img$Biopic.jpg ])
 			[p 
