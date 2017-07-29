@@ -48,12 +48,8 @@ img {
 	color: white;
 }
 
-#guide a:hover {
+#guide a:hover, #guide .select {
 	background-image: url(Button_inset.jpg);
-}
-
-#guide .select {
-	background-color: red;
 }
 
 @keyframes col {
