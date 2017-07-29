@@ -16,17 +16,18 @@ var gallery_image = gallery_frame.getElementsByTagName("img")[0];
 var current_index = 0;
 var gallery_title = document.getElementById( "gallery-title" );
 
-function set_title( i )
+function set_source( i )
 {
+	console.log( "setting image to index " + i );
 	gallery_title.innerHTML = database[i*2+0];
+	gallery_image.src = database[i*2+1];
 }
 
 function load_picture( i )
 {
 	if( i < 0 || i >= database.length/2 ) return false;
-	gallery_image.src = database[i*2+1];
+	set_source( i );
 	current_index = i;
-	set_title( i );
 	return true;
 }
 
@@ -34,8 +35,7 @@ function next_picture()
 {
 	if( current_index+1 >= database.length/2 ) return false;
 	current_index++;
-	gallery_image.src = database[current_index*2+1];
-	set_title( current_index );
+	set_source( current_index );
 	return true;
 }
 
@@ -43,7 +43,6 @@ function previous_picture()
 {
 	if( current_index-1 < 0 ) return false;
 	current_index--;
-	gallery_image.src = database[current_index*2+1];
-	set_title( current_index );
+	set_source( current_index );
 	return true;
 }

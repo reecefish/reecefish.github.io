@@ -5,6 +5,7 @@ var guidedb = [ "SOCIAL", "index.html",
 
 function guide_load()
 {
+	console.log( "building guide" );
 	var tag_guide = document.getElementById( "guide" );
 	var tag_center = document.createElement( "center" );
 	tag_guide.appendChild( tag_center );
