@@ -11,6 +11,7 @@ var database = [
 	"Openning Your Second Eye", "http://i.imgur.com/U8KIc7u.jpg",
 ];
 
+const DATA_BLOCKS = 2;
 var gallery_frame = document.getElementById("gallery-content");
 var gallery_image = gallery_frame.getElementsByTagName("img")[0];
 var current_index = 0;
@@ -19,8 +20,8 @@ var gallery_title = document.getElementById( "gallery-title" );
 function set_source( i )
 {
 	console.log( "setting image to index " + i );
-	gallery_title.innerHTML = database[i*2+0];
-	gallery_image.src = database[i*2+1];
+	gallery_title.innerHTML = database[i*DATA_BLOCKS+0];
+	gallery_image.src = database[i*DATA_BLOCKS+1];
 }
 
 function load_picture( i )

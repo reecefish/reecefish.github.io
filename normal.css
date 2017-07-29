@@ -27,15 +27,11 @@ img {
 #guide {
 	padding: 1em;
 	background-image: url(Bar_Segment.png);
-	background-color: cyan;
+	background-color: darkblue;
 	background-size: auto 100%;
 	position: fixed;
 	width: 100%;
 	top: 0px;
-}
-
-#guide p {
-	text-align: center;
 }
 
 #guide a {
