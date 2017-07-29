@@ -29,10 +29,10 @@ function guide_load()
 		tag_center.innerHTML += ' ';
 	}
 
-	//a fairly gross gimpy way to set inset for the website
+	//a fairly gross way to set inset for the website
 	if( !found_inset )
 	{
-		tag_guide.getElementByTagName("a")[0].className = "select";
+		tag_guide.getElementsByTagName("a")[0].className = "select";
 	}
 }
 
