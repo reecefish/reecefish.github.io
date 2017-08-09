@@ -16,3 +16,21 @@
 	width: calc( 100% - 400px );
 	float: left;
 }
+
+#gallery-legend {
+	margin-left: 1em;
+}
+
+#gallery-legend i {
+	margin-right: 1.5em;
+	user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+	cursor: pointer;
+}
+
+#gallery-legend .select {
+	border: 2px blue solid;
+}

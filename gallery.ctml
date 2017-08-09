@@ -5,9 +5,10 @@
 		[link{rel="stylesheet" type="text/css"}@normal.css ])
 		[link{rel="stylesheet" type="text/css"}@gallery.css ])
 	]
-	[body{onload="load_picture(0)"}
+	[body
 		[div#guide]
 		[script$guideData.js ]
+		[div#gallery-legend]
 		[center [h1#gallery-title ]]
 		[div.gallery-button{onclick="previous_picture()"} &larr;]
 		[div#gallery-content [a{target="_blank"} [img])]]
