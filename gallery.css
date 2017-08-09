@@ -29,8 +29,9 @@
 	-webkit-user-select: none;
 	-webkit-touch-callout: none;
 	cursor: pointer;
+	padding: 0.3em;
 }
 
 #gallery-legend .select {
-	border: 2px blue solid;
+	border: 2px solid blue;
 }
