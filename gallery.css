@@ -22,7 +22,6 @@
 }
 
 #gallery-legend i {
-	margin-right: 1.5em;
 	user-select: none;
 	-ms-user-select: none;
 	-moz-user-select: none;
@@ -30,8 +29,10 @@
 	-webkit-touch-callout: none;
 	cursor: pointer;
 	padding: 0.3em;
+	display: inline-block;
 }
 
 #gallery-legend .select {
 	border: 2px solid blue;
+	padding: calc( 0.3em  - 2px );
 }
