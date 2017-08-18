@@ -32,7 +32,7 @@ function guide_load()
 		tag_center.innerHTML += ' ';
 	}
 
-	//a fairly gross way to set inset for the website
+	//a fairly gross way to set inset if on landing page/no post-fix
 	if( !found_inset )
 	{
 		tag_guide.getElementsByTagName("a")[0].className = "select";
