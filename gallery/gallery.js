@@ -8,7 +8,7 @@ var database = [
 	"Swirl",                    "http://i.imgur.com/QamRccm.jpg",
 	"The Other Side",           "http://i.imgur.com/A0ZoXLI.jpg",
 	"Special Tea",              "http://i.imgur.com/wqkYhYL.jpg",
-	"Openning Your Second Eye", "http://i.imgur.com/U8KIc7u.jpg",
+	"Opening Your Second Eye",  "http://i.imgur.com/U8KIc7u.jpg",
 ];
 
 const DATA_BLOCKS = 2;

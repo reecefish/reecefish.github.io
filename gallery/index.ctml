@@ -3,12 +3,12 @@
 	[head
 		[title Reece Gallery]
 		[meta{charset="utf-8"}])
-		[link{rel="stylesheet" type="text/css"}@normal.css ])
+		[link{rel="stylesheet" type="text/css"}@../normal.css ])
 		[link{rel="stylesheet" type="text/css"}@gallery.css ])
 	]
 	[body
 		[div#guide]
-		[script$guideData.js ]
+		[script$../guideData.js ]
 		[div#gallery-legend]
 		[center [h1#gallery-title ]]
 		[div.gallery-button{onclick="previous_picture()"} &larr;]

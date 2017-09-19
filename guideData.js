@@ -1,6 +1,6 @@
-var guidedb = [ "SOCIAL", "index.html",
-"ABOUT", "about.html",
-"GALLERY", "gallery.html",
+var guidedb = [ "SOCIAL", "../social/",
+"ABOUT", "../about/",
+"GALLERY", "../gallery/",
 ];
 
 const GUIDE_BLOCKS = 2;
