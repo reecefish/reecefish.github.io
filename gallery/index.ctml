@@ -3,17 +3,18 @@
 	[head
 		[title Reece Gallery]
 		[meta{charset="utf-8"}])
-		[link{rel="stylesheet" type="text/css"}@../normal.css ])
-		[link{rel="stylesheet" type="text/css"}@gallery.css ])
+		[base@.. ])
+		[link{rel="stylesheet" type="text/css"}@normal.css ])
+		[link{rel="stylesheet" type="text/css"}@gallery/gallery.css ])
 	]
 	[body
 		[div#guide]
-		[script$../guideData.js ]
+		[script$guideData.js ]
 		[div#gallery-legend]
 		[center [h1#gallery-title ]]
 		[div.gallery-button{onclick="previous_picture()"} &larr;]
 		[div#gallery-content [a{target="_blank"} [img])]]
 		[div.gallery-button{onclick="next_picture()"} &rarr;]
-		[script$gallery.js ]
+		[script$gallery/gallery.js ]
 	]
 ]
