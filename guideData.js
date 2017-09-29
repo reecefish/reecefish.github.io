@@ -1,4 +1,4 @@
-var guidedb = [ "SOCIAL", "social/",
+var guidedb = [ "SOCIAL", "index.html",
 "ABOUT", "about/",
 "GALLERY", "gallery/",
 ];
@@ -11,7 +11,7 @@ function guide_load()
 	var tag_guide = document.getElementById( "guide" );
 	var tag_center = document.createElement( "center" );
 	tag_guide.appendChild( tag_center );
-	var found_inset = false;
+	var found_inset = 0;
 	for( i = 0; i < guidedb.length/GUIDE_BLOCKS; i++ )
 	{
 		//basic data implementation
@@ -23,8 +23,7 @@ function guide_load()
 		var indOf = window.location.pathname.indexOf( guidedb[i*GUIDE_BLOCKS+1] );
 		if( indOf > -1 )
 		{
-			found_inset = true;
-			tag_a.className = "select";
+			found_inset = i;
 		}
 
 		//finally append
@@ -33,9 +32,9 @@ function guide_load()
 	}
 
 	//a fairly gross way to set inset if on landing page/no post-fix
-	if( !found_inset )
+	if( found_inset >= 0 && found_inset < guidedb.length/GUIDE_BLOCKS )
 	{
-		tag_guide.getElementsByTagName("a")[0].className = "select";
+		tag_guide.getElementsByTagName("a")[found_inset].className = "select";
 	}
 }
 
