@@ -1,4 +1,4 @@
-var guidedb = [ "SOCIAL", "index.html",
+var guidedb = [ "SOCIAL", "/",
 "ABOUT", "about/",
 "GALLERY", "gallery/",
 ];
