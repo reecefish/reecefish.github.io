@@ -30,6 +30,7 @@
 	cursor: pointer;
 	padding: 0.3em;
 	display: inline-block;
+	text-decoration: underline;
 }
 
 #gallery-legend .select {
